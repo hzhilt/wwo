@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <title>移动版 - Worktile</title>
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!--link rel="stylesheet" type="text/css" href="base_common.css" /-->
+    <link rel="stylesheet" type="text/css" href="base_outer.css" />   
+    
+</head>
+<body class="ng-cloak" data-ng-cloak>
+<header id="header">
+
+
+    <nav id="header_outer" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-header-collapse"
+                    wt-tracker="Header|Collapse|Toggle Navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="header_logo" class="navbar-brand"
+               wt-tracker="Header|Logo|Goto Index"
+               href="/" title="Worktile">Worktile</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-header-collapse">
+
+            <ul id="header_menu" class="nav navbar-nav">
+                 <li >
+                <a  href="index.html">首页</a>
+                </li>
+                <li class="active">
+                <a  href="mobile.html">移动版</a>
+                </li>
+                <li>
+                <a  href="about.html">关于</a>
+                </li> 
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right" ng-controller="user_ctrl"
+            id="header_me">
+                <li class="divider-vertical hidden-xs"></li>
+                
+                <li>
+                    <a class="mr_15" wt-tracker="Header|Menu|Goto Signin" href="signin.html">登录</a>
+                </li>
+                <li>
+                    <a href="signup.html" wt-tracker="Header|Menu|Goto Apply">注册</a>
+                </li>
+                
+            </ul>
+        </div>
+</nav>
+
+
+
+</header>
+<div id="wrap-all"><div id="main" class="inner">
+<div class="mobile-warp">
+    <div class="mobile-banner">
+        <div class="mobile-banner-inner">
+            <h3>让协同无处不在</h3>
+            <p>随时随地与团队一起工作。</p>
+
+            <div class="mobile-down">
+                    <a class="btn btn-success btn-lg" href="https://itunes.apple.com/cn/app/Worktile/id725947745" target="_blank">
+                        <img src="http://worktile.com/img/mobile/mobile_download_iphone.png?ver=3.2.19" alt="前往AppStore"/>
+                        前往AppStore
+                    </a>　
+                    <a class="btn btn-success btn-lg" href="http://wt-all.oss.aliyuncs.com/android/worktile_2.2.0.apk" target="_blank">
+                        <img src="http://worktile.com/img/mobile/mobile_download_android.png?ver=3.2.19" alt="下载Android版"/>
+                        下载Android版
+                    </a>　
+                    <img src="http://worktile.com/img/mobile/mobile_download_qrcode.png?ver=3.2.19" alt="扫描二维码下载"/>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-body">
+        <div class="mobile-inner">
+            <div class="mobile_feature_01">
+                <h4>统一的体验</h4>
+                <p>多屏统一，在PC、移动设备上 <br/>
+                    一致的体验</p>
+            </div>
+            <div class="mobile_feature_02">
+                <h4>直观的任务管理
+
+                    </h4>
+                <p>看板式任务管理，随时随地 <br/>
+                    掌握项目进度</p>
+            </div><div class="mobile_feature_03">
+                <h4>即时消息通知</h4>
+                <p>所有消息和更新即时到达，<br/>
+                    和团队成员之间完美沟通</p>
+            </div>
+        </div>
+        <div class="mobile-icons">
+            <h3>
+                <span>全平台支持</span>
+            </h3>
+            <ul>
+                <li>
+                    <img src="https://worktile.com/img/mobile/mobile_icon_pc.png" alt=""/>
+                    <br/>
+                    桌面网页版
+                </li>
+                <li>
+                    <img src="https://worktile.com/img/mobile/mobile_icon_iphone.png" alt=""/>
+                    <br/>
+                    iPhone版
+                </li>
+                <li>
+                    <img src="https://worktile.com/img/mobile/mobile_icon_android.png" alt=""/>
+                    <br/>
+                    Android版
+                </li>
+            </ul>
+        </div>
+    </div>
+<footer id="footer-outer" class="hidden-xs">
+    
+    <div class="text-center">
+        © 2014 worktile.com &nbsp; 京ICP备13017353号-3 &nbsp; 京公网安备11010802012357号
+    </div>
+</footer>
+</div>
+</div></div>
+
+</body>
+</html>
+

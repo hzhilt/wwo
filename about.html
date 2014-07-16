@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <title>关于我们 - Worktile</title>
+    <link rel="stylesheet" type="text/css" href="https://worktile.com/css/base_common.css?ver=3.0.10" />
+    <link rel="stylesheet" type="text/css" href="https://worktile.com/css/base_outer.css?ver=3.0.10" />
+    <link rel="stylesheet" type="text/css" href="/clubcss/base_club.css?ver=3.0.10" />
+
+
+    
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "hm.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
+</head>
+<body class="ng-cloak" data-ng-cloak>
+<header id="header">
+
+
+    <nav id="header_outer" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-header-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="header_logo" class="navbar-brand"
+               href="/" title="Worktile">Worktile</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-header-collapse">
+
+            <ul id="header_menu" class="nav navbar-nav">
+                   <li>
+                <a wt-tracker="Header|Menu|Goto Index" href="index.html">首页</a>
+                </li>              
+                <li >
+                <a wt-tracker="Header|Menu|Goto Plan" href="mobile.html">移动版</a>
+                </li>
+                <li>
+                <a wt-tracker="Header|Menu|Goto About" href="about.html">关于</a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right" ng-controller="user_ctrl"
+            id="header_me">
+                <li class="divider-vertical hidden-xs"></li>
+                
+                <li>
+                    <a class="mr_15" wt-tracker="Header|Menu|Goto Signin" href="signin.html">登录</a>
+                </li>
+                <li>
+                    <a href="signup.html" wt-tracker="Header|Menu|Goto Apply">注册</a>
+                </li>
+                
+            </ul>
+        </div>
+</nav>
+
+
+
+</header>
+<div id="wrap-all"><div id="main" class="inner">
+<div class="about-wrap">
+
+    <div class="about-banner">
+        <div class="about-banner-inner">
+            <h3>关于我们</h3>
+
+            <p>使命: 让工作更简单</p>
+        </div>
+    </div>
+    <div class="about-body">
+        <div class="about-mission">
+            <h4>我们的理念</h4>
+
+            <p>打造一款伟大的团队协同工具，用工具改变人们团队工作的方式，提升团队效率。</p>
+            <ol>
+                <li><span>1</span>用户第一，其他一切水到渠成</li>
+                <li><span>2</span>专心致志将一件事做到极致</li>
+                <li><span>3</span>赚钱不必作恶</li>
+            </ol>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+
+    <div class="text-center" style=font-size:18px>
+        <address>
+        <strong>中国联合网络通信有限公司广东省分公司  新业务研发中心</strong><br>
+        广州市天河区黄埔大道西666号 联通新时空广场楼14楼<br>
+        中国 广州<br>
+        电话: (123) 456-7890
+        </address>
+
+        <address>
+        <strong>电子邮箱</strong><br>
+        <a href="mailto:#">***@chinaunicom.cn</a>
+        </address>
+        
+    </div>
+    <br/>
+
+    <footer id="footer-outer" class="hidden-xs">
+        <div class="text-center">
+          © 2014 worktile.com &nbsp; 京ICP备13017353号-3 &nbsp; 京公网安备11010802012357号
+        </div>
+    </footer>
+</div>
+</div></div>
+
+<script type="text/javascript">
+    window.wt = {};
+
+</script>
+
+
+<script src="clubs_js.js"></script>
+
+<script type="text/javascript">
+    var useHtml5Mode = false;
+    angular.element(document).ready(function() {
+        initOuterApp();
+        angular.bootstrap(document, ['wt']);
+    });
+</script>
+
+</body>
+</html>
+
